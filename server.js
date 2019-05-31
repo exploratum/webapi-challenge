@@ -15,7 +15,7 @@ server.get('/', () => {
 
 
 server.use('/projects', projectRouter);
-
+server.use('/actions', actionRouter);
 
 
 
